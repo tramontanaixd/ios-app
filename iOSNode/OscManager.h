@@ -3,7 +3,7 @@
 //  iOSNode
 //
 //  Created by Pierluigi Dalla Rosa on 9/25/17.
-//  Copyright © 2017 binaryfutures. All rights reserved.
+//  AGPL-3.0-only
 //
 
 #import <Foundation/Foundation.h>

@@ -1,9 +1,9 @@
 //
 //  utils.h
 //  iOSNode
-//
-//  Created by local on 5/11/16.
-//  Copyright © 2016 binaryfutures. All rights reserved.
+//  
+//  Created by Pierluigi Dalla Rosa on 5/11/16.
+//  AGPL-3.0-only
 //
 
 #ifndef utilsbf_h

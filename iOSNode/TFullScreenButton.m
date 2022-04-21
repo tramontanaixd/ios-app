@@ -1,7 +1,7 @@
 //
 //  TFullScreenButton.m
 //  
-//
+//  AGPL-3.0-only
 //  Created by Pierluigi Dalla Rosa on 9/8/17.
 //
 //

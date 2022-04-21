@@ -3,7 +3,7 @@
 //
 //  Created by Gaurav D. Sharma & Piyush Kashyap
 //  Modified by Pierluigi Dalla Rosa @binaryfutures
-//
+//  AGPL-3.0-only
 //
 
 

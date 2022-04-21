@@ -1,9 +1,9 @@
 //
 //  ConsoleManager.m
-//  serverConnector2
+//
 //
 //  Created by Pierluigi Dalla Rosa on 3/16/16.
-//  Copyright © 2016 binaryfutures. All rights reserved.
+//  AGPL-3.0-only
 //
 
 #import "ConsoleManager.h"

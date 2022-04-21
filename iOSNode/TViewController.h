@@ -1,9 +1,9 @@
 //
 //  ViewController.h
 //  iOSNode
-//
+//  
 //  Created by Pierluigi Dalla Rosa on 4/29/16.
-//  Copyright © 2016 binaryfutures. All rights reserved.
+//  AGPL-3.0-only
 //
 
 #import <UIKit/UIKit.h>
@@ -84,7 +84,7 @@
 -(void)transitionColors:(nullable NSNotification*)notification;
 -(void)takePicture:(NSNotification* _Nullable)notification;
 
-//**PIECKER CONTROLLER**//
+//**PICKER CONTROLLER**//
 @property (nonatomic) UIImagePickerController *imagePickerController;
 
 

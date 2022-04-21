@@ -2,8 +2,8 @@
 //  DBManager.m
 //  iOSNode
 //
-//  Created by local on 6/24/16.
-//  Copyright © 2016 binaryfutures. All rights reserved.
+//  Created by Pierluigi Dalla Rosa on 6/24/16.
+//  AGPL-3.0-only
 //
 
 #import "DBManager.h"

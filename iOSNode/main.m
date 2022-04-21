@@ -2,8 +2,8 @@
 //  main.m
 //  iOSNode
 //
-//  Created by local on 4/29/16.
-//  Copyright © 2016 binaryfutures. All rights reserved.
+//  Created by Pierluigi Dalla Rosa on 4/29/16.
+//  AGPL-3.0-only
 //
 
 #import <UIKit/UIKit.h>

@@ -1,9 +1,9 @@
 //
 //  ViewController.m
 //  iOSNode
-//
-//  Created by local on 4/29/16.
-//  Copyright © 2016 binaryfutures. All rights reserved.
+//  
+//  Created by Pierluigi Dalla Rosa on 4/29/16.
+//  AGPL-3.0-only
 //
 
 #import "TViewController.h"
@@ -24,16 +24,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //make sure iPhone doesn't go to sleep
     [[UIApplication sharedApplication]setIdleTimerDisabled:YES];
     
+    //change state to INIT
     [self changeState:INIT];
     
+    //Initialize media view
     _viewMedia = [[GPMediaView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     [_viewMedia setBackgroundColor:[UIColor clearColor]];
     [self.view setFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    
     [_touchButton setFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     [self.view addSubview:_viewMedia];
     _pictureTaking=NO;
+    
     
     _am=[[ActuatorManager alloc] init];
     
@@ -41,17 +46,15 @@
     //** INIT - CONSOLE**//
     [self updateLabelIP];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateConsole) name:@"updateConsole" object:nil];
+    
     //** RUNTIME EVENTS **//
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setColor:) name:@"setColor" object:(NetworkManager*)[NetworkManager sharedManager]];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(transitionColors:) name:@"transitionColors" object:(NetworkManager*)[NetworkManager sharedManager]];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showImageWith:) name:@"showImage" object:(NetworkManager*)[NetworkManager sharedManager]];
    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playVideo:) name:@"playVideo" object:(NetworkManager*)[NetworkManager sharedManager]];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playAudio:) name:@"playAudio" object:(NetworkManager*)[NetworkManager sharedManager]];
-    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(takePicture:) name:@"takePicture" object:(NetworkManager*)[NetworkManager sharedManager]];
-    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(itemDidFinishPlaying:) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
-    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(enableMultitouch:) name:@"multitouchEnabled" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(disabledMultitouch:) name:@"multitouchDisabled" object:nil];
 

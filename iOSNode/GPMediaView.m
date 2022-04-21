@@ -3,7 +3,7 @@
 //
 //  Created by Gaurav D. Sharma & Piyush Kashyap
 //  Modified by Pierluigi Dalla Rosa @binaryfutures
-//
+//  AGPL-3.0-only
 //
 
 #import "GPMediaView.h"
@@ -16,7 +16,6 @@
 
 @implementation GPMediaView
 {
-    
     NSMutableData* mediaData;
     int mediaType;
     int status;
@@ -218,7 +217,7 @@
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:_mediaURL])
     {
-        /* --- Set Cached Video --- */
+        /* --- Set Cached Audio --- */
         NSURL* tmpUrl = [NSURL fileURLWithPath:_mediaURL];
         if(_audioPlayer==nil)
         {

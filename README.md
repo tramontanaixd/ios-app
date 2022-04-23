@@ -1,13 +1,27 @@
 ## Tramontana iOS app Repo
 
-### Introdution
+### What is Tramontana?
+
+###### A platform for interactive spaces, interactive objects and prototyping.
+
+With libraries for Processing, Javascript and OpenFrameworks you can access the inputs and outputs of one or more smartphones (or other devices) to easily and quickly prototype interactive spaces, connected products or whatever you can think of. What used to involve complex tasks like networking, native app development, etc. can now be created with a single sketch on your computer.
+
+You can find the download links, references and getting started informations on the [Tramontana website](https://tramontana.xyz).
+
+### Introduction and Links
+
+This is the repo page for the Tramontana app for iOS. If you are looking just to use the app you can download it from the app store at [this link](https://apps.apple.com/us/app/id1121069555) or follow the [getting started page](https://tramontana.xyz) on Tramontana website.
 
 
-Usually we interact with one digital device at a time in the same space, this being a phone, a smarttv or a computer.
+The Tramontana app works in congiunction with libraries for Processing or Javascript that you can find here:
+[Tramontana Library for Processing](https://github.com/pierdr/Tramontana-for-Processing) 
+[Tramontana Library for Javascript](https://github.com/pierdr/Tramontana-for-Web)
 
-This changes when we look at other interactive systems like connected devices or interactive spaces. 
+If you want to develop the app instead, and add new features continue to read.
 
-This is what tramontana allows to do, prototytiping an interactive system with different interaction touchpoints. tramontana is designed for creating rich interactive experiences with *few lines of code*.
+### How to build the app
+
+
 
 ### Lifecycle
 

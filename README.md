@@ -17,10 +17,26 @@ The Tramontana app works in congiunction with libraries for Processing or Javasc
 [Tramontana Library for Processing](https://github.com/pierdr/Tramontana-for-Processing) 
 [Tramontana Library for Javascript](https://github.com/pierdr/Tramontana-for-Web)
 
-If you want to develop the app instead, and add new features continue to read.
+If you want to develop the app instead, and add new features or solve a bug, please continue to read.
 
 ### How to build the app
 
+1. Download or clone this repo.
+2. Open *Terminal* on macOS.
+2. In the terminal: 
+	3. Navigate on your terminal to the folder where you downloaded this repo
+		* 		`cd yourfolderpath/ios-app`
+	5. Run Pod Install
+		* 		`pod install`		
+2. Open *iOSNode.xcworkspace* with XCode
+3. Change your signing certificate to your own: ![](iconTramontanaMobile/Signing.jpg)
+4. You should now able to Build and Run the iOS app of Tramontana.
+
+### Compatibility
+The Tramontana app for iOS was tested on:
+
+XCode 13.0 and XCode 12.4 on macOS 11.3.1 and macOS 11.6 respectively
+iOS 15.2
 
 
 ### Lifecycle
@@ -80,7 +96,7 @@ When invoking tramontana to take a picture, the image is saved to Dropbox if the
 
 If you want to contribute to tramontana, welcome!
  
-When you develop tramotana make sure that the app compiles on iPhone, iPad and TvOS.
+**When you develop tramotana make sure that the app compiles on iPhone, iPad and TvOS.**
 
 After each accepted pull request  the main contributors will compile and sign the app, and send it for approval to the App Store.
 

@@ -102,6 +102,6 @@ After each accepted pull request  the main contributors will compile and sign th
 
 The pull request should state the updated version of the app. The current version now is **1.2.3**.
  
-### Lisence
+### License
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3
 AGPL-3.0-only

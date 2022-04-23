@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72774A9620F719AF00922995 /* SaveAndLoadTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 72774A9420F719AF00922995 /* SaveAndLoadTextField.h */; };
-		72774A9720F719AF00922995 /* SaveAndLoadTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 72774A9520F719AF00922995 /* SaveAndLoadTextField.m */; };
 		960F945E1D04DA4700CF0532 /* splash_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 960F945C1D04DA4700CF0532 /* splash_4.png */; };
 		960F945F1D04DA4700CF0532 /* splash_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 960F945D1D04DA4700CF0532 /* splash_5.png */; };
 		962454DF1CDB23FE00E08A44 /* ActuatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 962454DE1CDB23FE00E08A44 /* ActuatorManager.m */; };
@@ -41,14 +39,14 @@
 		B9A7F1C61F7A248000057800 /* OscManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A7F1C41F7A248000057800 /* OscManager.m */; };
 		B9B54A881F746C64009B9C5D /* TViewML.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B54A861F746C64009B9C5D /* TViewML.h */; };
 		B9B54A891F746C64009B9C5D /* TViewML.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B54A871F746C64009B9C5D /* TViewML.m */; };
+		D95825BD268CFFAF003B3835 /* SaveAndLoadTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D95825BB268CFFAF003B3835 /* SaveAndLoadTextField.m */; };
+		D95825BE268CFFAF003B3835 /* SaveAndLoadTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = D95825BC268CFFAF003B3835 /* SaveAndLoadTextField.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A786E56FBCD72E211BBFA8C /* libPods-iOSNode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSNode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		542BA9C7BC47D9788959CFBB /* Pods-iOSNode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNode.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNode/Pods-iOSNode.release.xcconfig"; sourceTree = "<group>"; };
 		63AEF7DF84C3F3F4834B80D4 /* Pods-iOSNode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNode/Pods-iOSNode.debug.xcconfig"; sourceTree = "<group>"; };
-		72774A9420F719AF00922995 /* SaveAndLoadTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaveAndLoadTextField.h; path = ../../../../../of_v20190902_ios_release/apps/myApps/tramontanaCV/src/SaveAndLoadTextField.h; sourceTree = "<group>"; };
-		72774A9520F719AF00922995 /* SaveAndLoadTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaveAndLoadTextField.m; path = ../../../../../of_v20190902_ios_release/apps/myApps/tramontanaCV/src/SaveAndLoadTextField.m; sourceTree = "<group>"; };
 		960F945C1D04DA4700CF0532 /* splash_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_4.png; path = iconTramontanaMobile/splash_4.png; sourceTree = "<group>"; };
 		960F945D1D04DA4700CF0532 /* splash_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_5.png; path = iconTramontanaMobile/splash_5.png; sourceTree = "<group>"; };
 		962454DD1CDB23FE00E08A44 /* ActuatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuatorManager.h; sourceTree = "<group>"; };
@@ -91,6 +89,10 @@
 		B9A7F1C41F7A248000057800 /* OscManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OscManager.m; sourceTree = "<group>"; };
 		B9B54A861F746C64009B9C5D /* TViewML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TViewML.h; sourceTree = "<group>"; };
 		B9B54A871F746C64009B9C5D /* TViewML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TViewML.m; sourceTree = "<group>"; };
+		D95825B7268CF698003B3835 /* SaveAndLoadTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SaveAndLoadTextField.m; path = ../of_v0.10.1_ios_release/apps/myApps/tramontanacv/src/SaveAndLoadTextField.m; sourceTree = "<group>"; };
+		D95825B9268CF6BA003B3835 /* SaveAndLoadTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SaveAndLoadTextField.h; path = ../of_v0.10.1_ios_release/apps/myApps/tramontanacv/src/SaveAndLoadTextField.h; sourceTree = "<group>"; };
+		D95825BB268CFFAF003B3835 /* SaveAndLoadTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveAndLoadTextField.m; sourceTree = "<group>"; };
+		D95825BC268CFFAF003B3835 /* SaveAndLoadTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveAndLoadTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,8 @@
 		9654A3931CD351DA002ECDA2 = {
 			isa = PBXGroup;
 			children = (
+				D95825B9268CF6BA003B3835 /* SaveAndLoadTextField.h */,
+				D95825B7268CF698003B3835 /* SaveAndLoadTextField.m */,
 				96C085921D0EC52C0097CD46 /* icon5.png */,
 				B91911E61F70E4EE00E5A5E4 /* wek.png */,
 				96C085901D0EC4EF0097CD46 /* Icon-40@2x.png */,
@@ -154,8 +158,8 @@
 		9654A39E1CD351DA002ECDA2 /* iOSNode */ = {
 			isa = PBXGroup;
 			children = (
-				72774A9420F719AF00922995 /* SaveAndLoadTextField.h */,
-				72774A9520F719AF00922995 /* SaveAndLoadTextField.m */,
+				D95825BC268CFFAF003B3835 /* SaveAndLoadTextField.h */,
+				D95825BB268CFFAF003B3835 /* SaveAndLoadTextField.m */,
 				B92FBEDB1F63634100DFCDC5 /* TFullScreenButton.h */,
 				B92FBEDC1F63634100DFCDC5 /* TFullScreenButton.m */,
 				B90A93F21F08B67400142F71 /* GPMediaView.h */,
@@ -215,7 +219,7 @@
 				B92FBEDD1F63634100DFCDC5 /* TFullScreenButton.h in Headers */,
 				B9B54A881F746C64009B9C5D /* TViewML.h in Headers */,
 				B9A7F1C51F7A248000057800 /* OscManager.h in Headers */,
-				72774A9620F719AF00922995 /* SaveAndLoadTextField.h in Headers */,
+				D95825BE268CFFAF003B3835 /* SaveAndLoadTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,8 +235,6 @@
 				9634FDFD1D1D279D00C23F48 /* Headers */,
 				9654A3981CD351DA002ECDA2 /* Sources */,
 				9654A39A1CD351DA002ECDA2 /* Resources */,
-				59F28C972AB2131D451675AC /* [CP] Embed Pods Frameworks */,
-				50EBACFA955E70A045B7B0D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,43 +305,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSNode-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		50EBACFA955E70A045B7B0D2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSNode/Pods-iOSNode-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		59F28C972AB2131D451675AC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSNode/Pods-iOSNode-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -348,7 +324,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72774A9720F719AF00922995 /* SaveAndLoadTextField.m in Sources */,
 				966C35B41CD3608200B5AFE9 /* NetworkManager.m in Sources */,
 				B9A7F1C61F7A248000057800 /* OscManager.m in Sources */,
 				962454E21CDB240D00E08A44 /* SensorManager.m in Sources */,
@@ -361,6 +336,7 @@
 				B90A93F51F08B67400142F71 /* GPMediaView.m in Sources */,
 				9654A3A41CD351DA002ECDA2 /* AppDelegate.m in Sources */,
 				9654A3A11CD351DA002ECDA2 /* main.m in Sources */,
+				D95825BD268CFFAF003B3835 /* SaveAndLoadTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

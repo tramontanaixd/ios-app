@@ -23,19 +23,19 @@ If you want to develop the app instead, and add new features or solve a bug, ple
 
 1. Download or clone this repo.
 2. Open *Terminal* on macOS.
-2. In the terminal: 
-	3. Navigate on your terminal to the folder where you downloaded this repo
-		* 		`cd yourfolderpath/ios-app`
-	5. Run Pod Install
-		* 		`pod install`		
+2. In the terminal: <br>
+	3. Navigate on your terminal to the folder where you downloaded this repo<br>
+					`cd yourfolderpath/ios-app`<br>
+	5. Run Pod Install<br>
+		 			`pod install`	<br>	
 2. Open *iOSNode.xcworkspace* with XCode
 3. Change your signing certificate to your own: ![](iconTramontanaMobile/Signing.jpg)
 4. You should now able to Build and Run the iOS app of Tramontana.
 
 ### Compatibility
 The Tramontana app for iOS was tested on:
-
-XCode 13.0 and XCode 12.4 on macOS 11.3.1 and macOS 11.6 respectively
+<br><br>
+XCode 13.0 and XCode 12.4 on macOS 11.3.1 and macOS 11.6 respectively<br>
 iOS 15.2
 
 

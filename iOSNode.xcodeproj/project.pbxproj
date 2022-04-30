@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		960F945E1D04DA4700CF0532 /* splash_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 960F945C1D04DA4700CF0532 /* splash_4.png */; };
-		960F945F1D04DA4700CF0532 /* splash_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 960F945D1D04DA4700CF0532 /* splash_5.png */; };
 		962454DF1CDB23FE00E08A44 /* ActuatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 962454DE1CDB23FE00E08A44 /* ActuatorManager.m */; };
 		962454E21CDB240D00E08A44 /* SensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 962454E11CDB240D00E08A44 /* SensorManager.m */; };
 		9634FDFC1D1D25F700C23F48 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9634FDFB1D1D25F700C23F48 /* DBManager.m */; };
@@ -47,8 +45,6 @@
 		3A786E56FBCD72E211BBFA8C /* libPods-iOSNode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSNode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		542BA9C7BC47D9788959CFBB /* Pods-iOSNode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNode.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNode/Pods-iOSNode.release.xcconfig"; sourceTree = "<group>"; };
 		63AEF7DF84C3F3F4834B80D4 /* Pods-iOSNode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNode/Pods-iOSNode.debug.xcconfig"; sourceTree = "<group>"; };
-		960F945C1D04DA4700CF0532 /* splash_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_4.png; path = iconTramontanaMobile/splash_4.png; sourceTree = "<group>"; };
-		960F945D1D04DA4700CF0532 /* splash_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash_5.png; path = iconTramontanaMobile/splash_5.png; sourceTree = "<group>"; };
 		962454DD1CDB23FE00E08A44 /* ActuatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActuatorManager.h; sourceTree = "<group>"; };
 		962454DE1CDB23FE00E08A44 /* ActuatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActuatorManager.m; sourceTree = "<group>"; };
 		962454E01CDB240D00E08A44 /* SensorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorManager.h; sourceTree = "<group>"; };
@@ -137,9 +133,7 @@
 				96C085921D0EC52C0097CD46 /* icon5.png */,
 				B91911E61F70E4EE00E5A5E4 /* wek.png */,
 				96C085901D0EC4EF0097CD46 /* Icon-40@2x.png */,
-				960F945C1D04DA4700CF0532 /* splash_4.png */,
 				B91911E81F70EBC400E5A5E4 /* close.png */,
-				960F945D1D04DA4700CF0532 /* splash_5.png */,
 				9654A39E1CD351DA002ECDA2 /* iOSNode */,
 				9654A39D1CD351DA002ECDA2 /* Products */,
 				2FA036C18B23A19F12FE50BA /* Frameworks */,
@@ -285,14 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9654A3AF1CD351DA002ECDA2 /* LaunchScreen.storyboard in Resources */,
-				960F945E1D04DA4700CF0532 /* splash_4.png in Resources */,
 				9654A3AC1CD351DA002ECDA2 /* Assets.xcassets in Resources */,
 				B91911E71F70E4EE00E5A5E4 /* wek.png in Resources */,
 				96C085931D0EC52C0097CD46 /* icon5.png in Resources */,
 				96C085911D0EC4EF0097CD46 /* Icon-40@2x.png in Resources */,
 				9654A3AA1CD351DA002ECDA2 /* Main.storyboard in Resources */,
 				B91911E91F70EBC400E5A5E4 /* close.png in Resources */,
-				960F945F1D04DA4700CF0532 /* splash_5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

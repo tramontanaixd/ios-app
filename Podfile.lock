@@ -1,5 +1,5 @@
 PODS:
-  - CocoaAsyncSocket (7.6.1)
+  - CocoaAsyncSocket (7.6.4)
   - ObjectiveDropboxOfficial (3.0.15)
   - OSCKit (0.3.5):
     - CocoaAsyncSocket (~> 7.3)
@@ -18,12 +18,19 @@ DEPENDENCIES:
   - OSCKit
   - PocketSocket
 
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - ObjectiveDropboxOfficial
+    - OSCKit
+    - PocketSocket
+
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   ObjectiveDropboxOfficial: 69d6d3831e41cf4918e0374b0d1fcb620b238791
   OSCKit: 4470dbd30bc792dcf66dc4e7b5d1ec7174add33c
   PocketSocket: 9c6867d66fb4f962af96b9b07f4b45bb561b2c2a
 
 PODFILE CHECKSUM: cdc3ecc5f8a60af4d83d136a94ca204ee99f0805
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.11.3

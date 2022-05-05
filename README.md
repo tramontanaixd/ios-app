@@ -98,7 +98,9 @@ If you want to contribute to tramontana, welcome!
  
 **When you develop tramotana make sure that the app compiles on iPhone, iPad and TvOS.**
 
-After each accepted pull request  the main contributors will compile and sign the app, and send it for approval to the App Store.
+Use the [**tester app**](https://github.com/tramontanaixd/tester) to check that everything works and if you add new features, make sure to add them to the tester app as well.
+
+After each accepted pull request the main contributors will compile and sign the app, and send it for approval to the App Store.
 
 The pull request should state the updated version of the app. The current version now is **1.2.3**.
  

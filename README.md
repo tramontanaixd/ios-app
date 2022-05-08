@@ -1,4 +1,4 @@
-## Tramontana iOS app Repo
+## Tramontana iOS app
 
 ### What is Tramontana?
 
